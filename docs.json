@@ -4,8 +4,8 @@
   "name": "Puft Docs",
   "colors": {
     "primary": "#2257bc",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "light": "#2257bc",
+    "dark": "#2257bc"
   },
   "favicon": "/favicon.svg",
   "navigation": {

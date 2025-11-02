@@ -58,6 +58,16 @@
                           "administration/integration/gitlab"
                         
                         ]
+                    },
+                  {
+                        "group": "Workspace",
+                        "pages": [
+                          "administration/workspace/users",
+                          "administration/workspace/groups",
+                          "administration/workspace/roles",
+                          "administration/workspace/statuses",
+                          "administration/workspace/test-environments"                        
+                        ]
                     }
                 ]
             }

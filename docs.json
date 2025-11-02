@@ -31,21 +31,33 @@
             {
                 "group": "TEST MANAGEMENT",
                 "pages": [
-                    "essentials/settings",
-                    "essentials/navigation"
+                    {
+                        "group": "Repository",
+                        "pages": [
+                            "test-management/repository/folder",
+                            {
+                                "group": "Test case",
+                                "pages": [
+                                    "test-management/repository/cases/case",
+                                    "test-management/repository/cases/steps",
+                                    "test-management/repository/cases/call-case",
+                                    "test-management/repository/cases/shared-steps"
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "group": "AUTOMATION",
                 "pages": [
-                   "automation/run/run",
-                   {
+                    "automation/run/run",
+                    {
                         "group": "Test Cases",
                         "pages": [
-                          "automation/cases/classic",
-                          "automation/cases/record",
-                          "automation/cases/thedore"
-
+                            "automation/cases/classic",
+                            "automation/cases/record",
+                            "automation/cases/thedore"
                         ]
                     },
                     "automation/reports/reports"
@@ -54,29 +66,27 @@
             {
                 "group": "ADMINISTRATION",
                 "pages": [
-                  {
+                    {
                         "group": "Workspace",
                         "pages": [
-                          "administration/workspace/users",
-                          "administration/workspace/groups",
-                          "administration/workspace/roles",
-                          "administration/workspace/statuses",
-                          "administration/workspace/test-environments"                        
+                            "administration/workspace/users",
+                            "administration/workspace/groups",
+                            "administration/workspace/roles",
+                            "administration/workspace/statuses",
+                            "administration/workspace/test-environments"
                         ]
                     },
-                  {
+                    {
                         "group": "Integration",
                         "pages": [
-                          "administration/integration/jira",
-                          "administration/integration/slack",
-                          "administration/integration/bitrise",
-                          "administration/integration/bitbucket",
-                          "administration/integration/github",
-                          "administration/integration/gitlab"
-                        
+                            "administration/integration/jira",
+                            "administration/integration/slack",
+                            "administration/integration/bitrise",
+                            "administration/integration/bitbucket",
+                            "administration/integration/github",
+                            "administration/integration/gitlab"
                         ]
                     }
-                  
                 ]
             }
         ],

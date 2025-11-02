@@ -38,15 +38,32 @@
             {
                 "group": "AUTOMATION",
                 "pages": [
-                    "essentials/markdown",
-                    "essentials/code",
-                    "essentials/images",
-                    "essentials/reusable-snippets"
+                   "automation/run/run",
+                   {
+                        "group": "Test Cases",
+                        "pages": [
+                          "automation/cases/classic",
+                          "automation/cases/record",
+                          "automation/cases/thedore"
+
+                        ]
+                    },
+                    "automation/reports/reports"
                 ]
             },
             {
                 "group": "ADMINISTRATION",
                 "pages": [
+                  {
+                        "group": "Workspace",
+                        "pages": [
+                          "administration/workspace/users",
+                          "administration/workspace/groups",
+                          "administration/workspace/roles",
+                          "administration/workspace/statuses",
+                          "administration/workspace/test-environments"                        
+                        ]
+                    },
                   {
                         "group": "Integration",
                         "pages": [
@@ -58,17 +75,8 @@
                           "administration/integration/gitlab"
                         
                         ]
-                    },
-                  {
-                        "group": "Workspace",
-                        "pages": [
-                          "administration/workspace/users",
-                          "administration/workspace/groups",
-                          "administration/workspace/roles",
-                          "administration/workspace/statuses",
-                          "administration/workspace/test-environments"                        
-                        ]
                     }
+                  
                 ]
             }
         ],

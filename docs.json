@@ -47,18 +47,15 @@
             {
                 "group": "ADMINISTRATION",
                 "pages": [
-                    "ai-tools/cursor",
-                    "ai-tools/claude-code",
-                    "ai-tools/windsurf",
                   {
                         "group": "Integration",
                         "pages": [
-                            "integration/jira",
-                            "integration/slack",
-                          "integration/bitrise",
-                          "integration/bitbucket",
-                          "integration/github",
-                          "integration/gitlab"
+                          "administration/integration/jira",
+                          "administration/integration/slack",
+                          "administration/integration/bitrise",
+                          "administration/integration/bitbucket",
+                          "administration/integration/github",
+                          "administration/integration/gitlab"
                         
                         ]
                     }

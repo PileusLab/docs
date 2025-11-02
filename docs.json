@@ -1,93 +1,90 @@
 {
-  "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
-  "name": "Puft Docs",
-  "colors": {
-    "primary": "#2257bc",
-    "light": "#2257bc",
-    "dark": "#2257bc"
-  },
-  "favicon": "/favicon.svg",
-  "navigation": {
-     "groups": [
+    "$schema": "https://mintlify.com/docs.json",
+    "theme": "mint",
+    "name": "Puft Docs",
+    "colors": {
+        "primary": "#2257bc",
+        "light": "#2257bc",
+        "dark": "#2257bc"
+    },
+    "favicon": "/favicon.svg",
+    "navigation": {
+        "groups": [
             {
-    "group": "GENERAL",
-    "pages": [
-      "index",
-      {
-            "group": "Get Started",
-            "pages": [
-              "get-started/projects"
-            ]
-          }
-    ]
-  },
-          {
-            "group": "Customization",
-            "pages": [
-              "essentials/settings",
-              "essentials/navigation"
-            ]
-          },
-          {
-            "group": "Writing content",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
-            ]
-          },
-          {
-            "group": "AI tools",
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
-            ]
-          }
+                "group": "GENERAL",
+                "pages": [
+                    "index",
+                    {
+                        "group": "Get Started",
+                        "pages": [
+                            "get-started/projects"
+                        ]
+                    }
+                ]
+            },
+            {
+                "group": "Customization",
+                "pages": [
+                    "essentials/settings",
+                    "essentials/navigation"
+                ]
+            },
+            {
+                "group": "Writing content",
+                "pages": [
+                    "essentials/markdown",
+                    "essentials/code",
+                    "essentials/images",
+                    "essentials/reusable-snippets"
+                ]
+            },
+            {
+                "group": "AI tools",
+                "pages": [
+                    "ai-tools/cursor",
+                    "ai-tools/claude-code",
+                    "ai-tools/windsurf"
+                ]
+            }
+        ],
+        "global": {
+            "anchors": []
+        }
+    },
+    "logo": {
+        "light": "/logo/light.svg",
+        "dark": "/logo/dark.svg"
+    },
+    "navbar": {
+        "links": [
+            {
+                "label": "Support",
+                "href": "mailto:hi@mintlify.com"
+            }
+        ],
+        "primary": {
+            "type": "button",
+            "label": "Dashboard",
+            "href": "https://dashboard.mintlify.com"
+        }
+    },
+    "contextual": {
+        "options": [
+            "copy",
+            "view",
+            "chatgpt",
+            "claude",
+            "perplexity",
+            "mcp",
+            "cursor",
+            "vscode"
         ]
-    ,
-    "global": {
-      "anchors": [
-      
-      ]
-    } 
-  },
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
-  },
-  "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
-      }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+    },
+    "footer": {
+        "socials": {
+            "x": "https://x.com/mintlify",
+            "github": "https://github.com/mintlify",
+            "linkedin": "https://linkedin.com/company/mintlify"
+        }
     }
-  },
-  "contextual": {
-    "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
-  },
-  "footer": {
-    "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
-    }
-  }
 }

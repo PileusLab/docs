@@ -13,15 +13,8 @@
             {
     "group": "GENERAL",
     "pages": [
-      "index"
-    ],
-    "subgroups": [
-      {
-        "group": "Getting Started",
-        "pages": [
-          "get-started/projects"
-        ]
-      }
+      "index",
+      "get-started/projects"
     ]
   },
           {

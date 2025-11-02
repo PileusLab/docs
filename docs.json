@@ -10,14 +10,20 @@
   "favicon": "/favicon.svg",
   "navigation": {
      "groups": [
-          {
-            "group": "GENERAL",
-            "pages": [
-              "index",
-              "quickstart",
-              "development"
-            ]
-          },
+            {
+    "group": "GENERAL",
+    "pages": [
+      "index"
+    ],
+    "subgroups": [
+      {
+        "group": "Getting Started",
+        "pages": [
+          "get-started/projects"
+        ]
+      }
+    ]
+  },
           {
             "group": "Customization",
             "pages": [

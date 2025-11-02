@@ -23,7 +23,7 @@
                     {
                         "group": "Issue tracking",
                         "pages": [
-                            "get-started/defects"
+                            "issues/defects"
                         ]
                     }
                 ]
@@ -45,7 +45,7 @@
                 ]
             },
             {
-                "group": "AI tools",
+                "group": "ADMINISTRATION",
                 "pages": [
                     "ai-tools/cursor",
                     "ai-tools/claude-code",

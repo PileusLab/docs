@@ -17,8 +17,7 @@
                     {
                         "group": "Get Started",
                         "pages": [
-                            "get-started/projects",
-                            "get-started/test"
+                            "get-started/projects"
                         ]
                     },
                     {
@@ -30,14 +29,14 @@
                 ]
             },
             {
-                "group": "Customization",
+                "group": "TEST MANAGEMENT",
                 "pages": [
                     "essentials/settings",
                     "essentials/navigation"
                 ]
             },
             {
-                "group": "Writing content",
+                "group": "AUTOMATION",
                 "pages": [
                     "essentials/markdown",
                     "essentials/code",

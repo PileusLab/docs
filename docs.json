@@ -49,7 +49,19 @@
                 "pages": [
                     "ai-tools/cursor",
                     "ai-tools/claude-code",
-                    "ai-tools/windsurf"
+                    "ai-tools/windsurf",
+                  {
+                        "group": "Integration",
+                        "pages": [
+                            "integration/jira",
+                            "integration/slack",
+                          "integration/bitrise",
+                          "integration/bitbucket",
+                          "integration/github",
+                          "integration/gitlab"
+                        
+                        ]
+                    }
                 ]
             }
         ],

@@ -17,7 +17,14 @@
                     {
                         "group": "Get Started",
                         "pages": [
-                            "get-started/projects"
+                            "get-started/projects",
+                            "get-started/test"
+                        ]
+                    },
+                    {
+                        "group": "Issue tracking",
+                        "pages": [
+                            "get-started/defects"
                         ]
                     }
                 ]
